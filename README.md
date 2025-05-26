@@ -8,7 +8,7 @@ This script evaluates language models on hallucination detection tasks across th
 
 We utilize two specially constructed datasets for training and evaluation:
 
-1. **HaluEval-QA_mis**: Derived from the QA subset of HaluEval dataset by introducing misleading information into the queries.
+1. **HaluEval-QA<sub>mis</sub>mis**: Derived from the QA subset of HaluEval dataset by introducing misleading information into the queries.
 
 2. **CQA_mis**: Created from CommonsenseQA dataset by incorporating distracting information into potential answers.
 
