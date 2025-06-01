@@ -1,6 +1,6 @@
 Code for [From Misleading Queries to Accurate Answers: A Three-Stage Fine-Tuning Method for LLMs](https://arxiv.org/abs/2504.11277), ACL 2025 (Findings)
 
-### Dataset Description
+## Dataset Description
 
 We utilize two specially constructed datasets for training and evaluation:
 
@@ -8,7 +8,7 @@ We utilize two specially constructed datasets for training and evaluation:
 
 2. **CQA<sub>mis<sub>**: Created from CommonsenseQA dataset by incorporating distracting information into potential answers.
 
-### Training Process
+## Training Process
 
 Our training consists of three consecutive stages:
 
@@ -96,3 +96,6 @@ Before running, you need to prepare:
 - All LLaMA models must be trained using LLaMA-Factory framework with our three-stage process
 - For Qwen models, standard inference is used but can be adapted to LLaMA-Factory if needed
 - Evaluation includes metrics for each training stage's contribution to final performance
+
+## Cite
+If you find this repository or our paper useful, please cite us.
