@@ -1,8 +1,4 @@
-# Command Usages (Updated with LLaMA-Factory Framework and Training Details)
-
-## Model Evaluation Script
-
-This script evaluates language models on hallucination detection tasks across three domains: Question Answering (QA), Dialogue, and Summarization. The models being evaluated are trained using the LLaMA-Factory framework with our specialized three-stage training process.
+Code for [From Misleading Queries to Accurate Answers: A Three-Stage Fine-Tuning Method for LLMs](https://arxiv.org/abs/2504.11277), ACL 2025 (Findings)
 
 ### Dataset Description
 
@@ -33,6 +29,10 @@ All models are trained/fine-tuned using the [LLaMA-Factory](https://github.com/h
 - Multi-GPU training support
 - Quantization options
 - Customizable training configurations
+
+## Model Evaluation Script
+
+This script evaluates language models on hallucination detection tasks across three domains: Question Answering (QA), Dialogue, and Summarization. The models being evaluated are trained using the LLaMA-Factory framework with our specialized three-stage training process.
 
 ### Args Usage
 
