@@ -99,3 +99,12 @@ Before running, you need to prepare:
 
 ## Cite
 If you find this repository or our paper useful, please cite us.
+```
+@inproceedings{li-etal-2025-misleading,
+    title = "From Misleading Queries to Accurate Answers: A Three-Stage Fine-Tuning Method for {LLM}s",
+    author={Li, Guocong and Liu, Weize and Wu, Yihang and Wang, Ping and Huang, Shuaihan and Xu, Hongxia and Wu, Jian},
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2025",
+    year = "2025",
+    url = "https://aclanthology.org/2025.findings-acl.65/"
+}
+```
